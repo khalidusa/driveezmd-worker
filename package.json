@@ -1,15 +1,15 @@
 {
   "name": "driveezmd-worker",
   "version": "1.0.0",
-  "type": "module",
+  "description": "DriveEZ MD worker for n8n",
   "main": "server.js",
+  "type": "commonjs",
   "scripts": {
     "start": "node server.js",
-    "postinstall": "npx playwright install --with-deps chromium"
+    "postinstall": "npx playwright install chromium"
   },
   "dependencies": {
     "express": "^4.19.2",
-    "playwright": "^1.52.0",
-    "pdf-parse": "^1.1.1"
+    "playwright": "^1.51.1"
   }
 }
